@@ -30,7 +30,7 @@ class School
   def sort
     new_hash = {}
     @roster.each do |score, student_name|
-      new_hash[score] = student_name.sort #student names is being sorted
+      new_hash[score] = student_name.sort
     end
     new_hash
   end
