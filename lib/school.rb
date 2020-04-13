@@ -1,4 +1,5 @@
 require 'pry'
+
 class School
   attr_reader :name
   attr_accessor :roster
