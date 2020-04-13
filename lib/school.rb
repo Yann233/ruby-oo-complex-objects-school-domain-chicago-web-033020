@@ -30,7 +30,7 @@ class School
   def sort
     new_hash = {}
     @roster.each do |key, value|
-      new_hash[key] = value.sort
+      new_hash[key] = value.sort #student names is being sorted
     end
     new_hash
   end
